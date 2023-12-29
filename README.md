@@ -9,9 +9,9 @@ Launch 2 instances (Amazon Linux2, t2.micro), name them Dev and Prod and attach 
 
 
 #install Apache 
-yum update -y 
-yum install httpd -y 
-systemctl start httpd 
+yum update -y
+yum install httpd -y
+systemctl start httpd
 systemctl enable httpd
 
 #install CodeDeploy agent 
