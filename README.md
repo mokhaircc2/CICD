@@ -8,14 +8,14 @@ Launch 2 instances (Amazon Linux2, t2.micro), name them Dev and Prod and attach 
 #!/bin/bash
 
 
-#install Apache 
+#install Apache
 yum update -y
 yum install httpd -y
 systemctl start httpd
 systemctl enable httpd
 
-#install CodeDeploy agent 
-yum install ruby -y 
+#install CodeDeploy agent
+yum install ruby -y
 yum install wget -y
 
 #wget https://bucket-name.s3.region-identifier.amazonaws.com/latest/install, bucket-name is the name of the Amazon S3 bucket that contains the CodeDeploy Resource Kit files for your region, and region-identifier is the identifier for your region. For a list of bucket names and region identifiers see Resource kit bucket names by Region on the AWS documentation.
