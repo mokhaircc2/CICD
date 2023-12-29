@@ -5,7 +5,7 @@ In this project I created a multi-environment pipeline to deploy applications to
 
 Launch 2 instances (Amazon Linux2, t2.micro), name them Dev and Prod and attach instance profile (role for CodeDeploy) to EC2. On the User data script configure the installation of Apache and CodeDeploy agent:
 
-#!/bin/bash/
+#!/bin/bash
 
 
 #install Apache 
