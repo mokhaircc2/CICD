@@ -1,7 +1,6 @@
 **CI/CD using GitHub and AWS CodeDeploy**
 
-about me
 
-not me
+Follow the documentation from the link below</b>
 
-you
+https://medium.com/@mokhaircc2/ci-cd-using-github-and-aws-4daac8a131f1
