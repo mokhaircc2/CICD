@@ -31,8 +31,7 @@ chmod +x ./install<br />
 #To install the latest version of the CodeDeploy agent:<br /> 
 ./install auto<br />
 
-#Copy the public DNS name of the EC2 instance and paste it to the browser to view its private IP address<br />
-echo “This instance is: $(hostname) > /var/www/html/index.html<br />
+#Copy the public DNS name of the EC2 instance and paste it to the browser to view custom message of index.html file<br />
 
 
 <b>User Data Script</b>
