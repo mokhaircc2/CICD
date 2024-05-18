@@ -1,5 +1,3 @@
-**CI/CD using GitHub and AWS CodeDeploy**</b>
-
 # CI/CD using GitHub and AWS CodeDeploy
 
 In this project I will creat a multi-environment pipeline to deploy applications to a Dev and Prod environment using EC2 instances, CodeDeploy, CodePipeline and GitHub. I will be using Visual Studio Code to push any updates locally to our remote repository.
